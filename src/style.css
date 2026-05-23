@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: system-ui, Arial, sans-serif;
+  color: #e5e7eb;
+  overflow-x: hidden;
+  background: radial-gradient(circle at top, #0b0f1a, #05060a);
+}
+
+.stars,
+.stars2,
+.stars3 {
+  position: fixed;
+  inset: 0;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stars {
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, white, transparent),
+    radial-gradient(1px 1px at 50px 80px, white, transparent);
+  background-size: 200px 200px;
+  animation: moveStars 60s linear infinite;
+  opacity: 0.5;
+}
+
+.stars2 {
+  background-image:
+    radial-gradient(2px 2px at 40px 70px, white, transparent),
+    radial-gradient(1px 1px at 120px 40px, white, transparent);
+  background-size: 300px 300px;
+  animation: moveStars 120s linear infinite;
+  opacity: 0.3;
+}
+
+.stars3 {
+  background-image:
+    radial-gradient(3px 3px at 60px 20px, #facc15, transparent),
+    radial-gradient(2px 2px at 200px 100px, white, transparent);
+  background-size: 400px 400px;
+  animation: moveStars 180s linear infinite;
+  opacity: 0.2;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-1000px);
+  }
+}
+
+#app {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  color: #facc15;
+  text-shadow: 0 0 20px rgba(250, 204, 21, 0.4);
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 20px;
+}
+
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+  background: #0f172a;
+  color: white;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus,
+select:focus {
+  border-color: #facc15;
+  box-shadow: 0 0 12px rgba(250, 204, 21, 0.3);
+}
+
+
+h2 {
+  color: #facc15;
+  margin-top: 20px;
+}
+
+ul {
+  margin-left: 20px;
+  color: #cbd5e1;
+}
+
+#list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card {
+  background: linear-gradient(145deg, #0f172a, #0b1220);
+  border: 1px solid #1f2937;
+  border-radius: 14px;
+  padding: 16px;
+  transition: 0.25s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #facc15;
+  box-shadow: 0 15px 40px rgba(250, 204, 21, 0.1);
+}
+
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #f8fafc;
+}
+
+.card p {
+  color: #94a3b8;
+  margin: 4px 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #1f2937;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #facc15;
+  color: black;
+}
