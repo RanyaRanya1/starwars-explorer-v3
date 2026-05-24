@@ -271,7 +271,23 @@ npm run dev
 
 # Screenshots van de applicatie
 
+## Homepage
+![Homepage](./src/screenshots/Screenshot%20(33).png)
 
+## Search Function
+![Search](./src/screenshots/Screenshot%20(34).png)
+
+## Filter Function
+![Filter](./src/screenshots/Screenshot%20(35).png)
+
+## Favorites System
+![Favorites](./src/screenshots/Screenshot%20(36).png)
+
+## Modal Popup
+![Modal](./src/screenshots/Screenshot%20(37).png)
+
+## Responsive Layout
+![Responsive](./src/screenshots/Screenshot%20(38).png)
 
 # Gebruikte bronnen
 
