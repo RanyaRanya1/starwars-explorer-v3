@@ -298,7 +298,19 @@ npm run dev
 - https://vitejs.dev/
 - https://javascript.info/
 
----
+## Technische vereisten
+
+- DOM manipulatie → src/main.js
+- Fetch API → src/main.js
+- Async/Await → src/main.js
+- LocalStorage → src/main.js
+- Filter functie → src/main.js
+- Search functie → src/main.js
+- Sort functie → src/main.js
+- Observer API → src/main.js
+- Form validatie → src/main.js
+- Template literals → src/main.js
+- Arrow functions → src/main.js
 
 # AI-log
 
