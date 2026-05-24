@@ -274,20 +274,20 @@ npm run dev
 ## Homepage
 ![Homepage](./src/screenshots/Screenshot%20(33).png)
 
-## Search Function
-![Search](./src/screenshots/Screenshot%20(34).png)
+## Favorites
+![Favorites](./src/screenshots/Screenshot%20(34).png)
 
-## Filter Function
+## Filter 
 ![Filter](./src/screenshots/Screenshot%20(35).png)
 
-## Favorites System
-![Favorites](./src/screenshots/Screenshot%20(36).png)
+## Filter2
+![Filter2](./src/screenshots/Screenshot%20(36).png)
 
-## Modal Popup
-![Modal](./src/screenshots/Screenshot%20(37).png)
+## Search
+![Search](./src/screenshots/Screenshot%20(37).png)
 
-## Responsive Layout
-![Responsive](./src/screenshots/Screenshot%20(38).png)
+##  Search2
+![Search2](./src/screenshots/Screenshot%20(38).png)
 
 # Gebruikte bronnen
 
